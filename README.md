@@ -16,14 +16,14 @@
 
 ## Clean Arch com Go
 
-# Organização da aplicação em GO
+### Organização da aplicação em GO
 
 Geralmente a comunidade Go organiza a aplicação seguindo a seguinte estrutura:
 - cmd: arquivos que contém o código de entrada do programa;
 - internal: armazena código restrito ao uso do módulo (data, models, handler, service, etc);
 - pkg: pacotes externos;
 
-# Clean Architecture
+### Clean Architecture
 
 Proposto por Robert Martin, Clean Architecture, ou Arquitetura Limpa, é um padrão arquitetural que consistem em uma série de princípios para estruturar um projeto de forma coesa, testável e de fácil manutenção.
 
@@ -37,7 +37,7 @@ A estrutura se baseia nas seguintes camadas:
 - Adapters - mediação da interação entre as camadas externas centrais da aplicação
 - Framework e Drivers - camada mais externa na qual temos a parte de frameworks, banco de dados, etc.
 
-# Clean Arch com Go
+### Clean Arch com Go
 
 Com base nos conceito de Clean Arch e na maneira como a comunidade organiza as aplicações em Go, o projeto respeita a seguinte estrutura:
 
