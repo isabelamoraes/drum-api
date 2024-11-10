@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Explorando os conceito de Clean Arch com Go através de uma aplicação para gerenciar e avaliar kits de bateria.
+  Explorando os conceitos de Clean Arch com Go através de uma aplicação para gerenciar e avaliar kits de bateria.
 </h4>
 
 <p align="center">
